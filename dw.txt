@@ -1,0 +1,14 @@
+mkdir nginx
+cd nginx
+wget https://raw.githubusercontent.com/ajeetraina/awesome-compose/master/nginx-nodejs-redis/nginx/Dockerfile
+wget https://raw.githubusercontent.com/ajeetraina/awesome-compose/master/nginx-nodejs-redis/nginx/nginx.conf
+cd ..
+mkdir web
+cd web
+wget https://raw.githubusercontent.com/ajeetraina/awesome-compose/master/nginx-nodejs-redis/web/.gitignore
+wget https://raw.githubusercontent.com/ajeetraina/awesome-compose/master/nginx-nodejs-redis/web/Dockerfile
+wget https://raw.githubusercontent.com/ajeetraina/awesome-compose/master/nginx-nodejs-redis/web/package-lock.json
+wget https://raw.githubusercontent.com/ajeetraina/awesome-compose/master/nginx-nodejs-redis/web/package.json
+wget https://raw.githubusercontent.com/ajeetraina/awesome-compose/master/nginx-nodejs-redis/web/server.js
+cd ..
+
